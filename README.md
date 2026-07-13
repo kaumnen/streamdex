@@ -1,4 +1,7 @@
 # Streamdex
+<img width="946" height="780" alt="CleanShot 2026-07-13 at 21 27 07@2x" src="https://github.com/user-attachments/assets/2b5d1da1-3144-4adf-a54f-b29e2d084fbe" />
+
+
 
 A local Codex dashboard for Stream Deck+. It shows recent tasks, active goals, token usage, rate limits plus local status. The included profile has two pages plus an animated Codex pet.
 
