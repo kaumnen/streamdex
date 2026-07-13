@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/layout.json",
+  "id": "StreamdexCard",
+  "items": [
+    {
+      "key": "background",
+      "type": "pixmap",
+      "rect": [0, 0, 200, 100],
+      "background": "#0B0F17",
+      "zOrder": 0
+    },
+    {
+      "key": "accent",
+      "type": "bar",
+      "rect": [0, 0, 5, 100],
+      "bar_bg_c": "#10A37F",
+      "bar_fill_c": "#10A37F",
+      "border_w": 0,
+      "value": 100,
+      "zOrder": 10
+    },
+    {
+      "key": "label",
+      "type": "text",
+      "rect": [14, 6, 176, 18],
+      "font": { "size": 13, "weight": 700 },
+      "color": "#9EACBF",
+      "alignment": "left",
+      "value": "CODEX",
+      "zOrder": 20
+    },
+    {
+      "key": "value",
+      "type": "text",
+      "rect": [14, 27, 176, 31],
+      "font": { "size": 23, "weight": 700 },
+      "color": "#F5F7FB",
+      "alignment": "left",
+      "value": "--",
+      "zOrder": 20
+    },
+    {
+      "key": "meta",
+      "type": "text",
+      "rect": [14, 61, 176, 18],
+      "font": { "size": 12, "weight": 600 },
+      "color": "#9EACBF",
+      "alignment": "left",
+      "value": "--",
+      "zOrder": 20
+    },
+    {
+      "key": "indicator",
+      "type": "bar",
+      "rect": [14, 87, 172, 6],
+      "bar_bg_c": "#263244",
+      "bar_fill_c": "#10A37F",
+      "border_w": 0,
+      "value": 0,
+      "zOrder": 20
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "AppIdentifier": "*",
+  "Device": { "Model": "20GBD9901", "UUID": "" },
+  "Name": "Streamdex 2 Pages",
+  "Pages": {
+    "Current": "63e82163-b17b-4a14-b435-4bdb683183a0",
+    "Pages": [
+      "63e82163-b17b-4a14-b435-4bdb683183a0",
+      "4e4f8d39-7ee1-4424-8e24-7980426e580c"
+    ]
+  },
+  "Version": "3.0"
+}

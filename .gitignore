@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.profile-build/
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.log
+com.kaumnen.streamdex.sdPlugin/bin/
+com.kaumnen.streamdex.sdPlugin/logs/
+com.kaumnen.streamdex.sdPlugin/profiles/*.streamDeckProfile

@@ -1,0 +1,236 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+  "UUID": "com.kaumnen.streamdex",
+  "Name": "Streamdex",
+  "Description": "Live Codex tasks, goals, usage plus controls on Stream Deck+.",
+  "Author": "kaumnen",
+  "Version": "0.1.0.0",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "7.1"
+  },
+  "Nodejs": {
+    "Version": "24"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "13"
+    }
+  ],
+  "CodePath": "bin/plugin.js",
+  "Icon": "imgs/plugin",
+  "Category": "Streamdex",
+  "CategoryIcon": "imgs/plugin",
+  "Profiles": [
+    {
+      "Name": "profiles/Streamdex",
+      "DeviceType": 7,
+      "AutoInstall": true,
+      "DontAutoSwitchWhenInstalled": false,
+      "Readonly": false
+    }
+  ],
+  "Actions": [
+    {
+      "UUID": "com.kaumnen.streamdex.pet",
+      "Name": "Codex Pet",
+      "Icon": "imgs/pet",
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "Encoder": {
+        "layout": "layouts/pet.json",
+        "Icon": "imgs/pet",
+        "StackColor": "#32D49A",
+        "TriggerDescription": {
+          "Rotate": "Select task",
+          "Push": "Open selected task",
+          "Touch": "Open selected task",
+          "LongTouch": "Refresh dashboard"
+        }
+      },
+      "States": [
+        {
+          "Image": "imgs/pet"
+        }
+      ]
+    },
+    {
+      "UUID": "com.kaumnen.streamdex.console",
+      "Name": "Paired Console",
+      "Icon": "imgs/status",
+      "Controllers": [
+        "Encoder"
+      ],
+      "Encoder": {
+        "layout": "layouts/console.json",
+        "Icon": "imgs/status",
+        "StackColor": "#27C4F4",
+        "TriggerDescription": {
+          "Rotate": "Cycle console view",
+          "Push": "Refresh data",
+          "Touch": "Next console view",
+          "LongTouch": "Open Codex"
+        }
+      },
+      "States": [
+        {
+          "Image": "imgs/status"
+        }
+      ]
+    },
+    {
+      "UUID": "com.kaumnen.streamdex.recent-task",
+      "Name": "Recent Task",
+      "Icon": "imgs/task",
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "Encoder": {
+        "layout": "layouts/card.json",
+        "Icon": "imgs/task",
+        "StackColor": "#10A37F",
+        "TriggerDescription": {
+          "Rotate": "Select task",
+          "Push": "Open task",
+          "Touch": "Open task",
+          "LongTouch": "Open new task"
+        }
+      },
+      "States": [
+        {
+          "Image": "imgs/task"
+        }
+      ]
+    },
+    {
+      "UUID": "com.kaumnen.streamdex.goal",
+      "Name": "Active Goal",
+      "Icon": "imgs/goal",
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "Encoder": {
+        "layout": "layouts/card.json",
+        "Icon": "imgs/goal",
+        "StackColor": "#7C5CFC",
+        "TriggerDescription": {
+          "Rotate": "Select goal",
+          "Push": "Open goal task",
+          "Touch": "Open goal task",
+          "LongTouch": "Refresh"
+        }
+      },
+      "States": [
+        {
+          "Image": "imgs/goal"
+        }
+      ]
+    },
+    {
+      "UUID": "com.kaumnen.streamdex.usage",
+      "Name": "Token Usage",
+      "Icon": "imgs/usage",
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "Encoder": {
+        "layout": "layouts/card.json",
+        "Icon": "imgs/usage",
+        "StackColor": "#00A9E0",
+        "TriggerDescription": {
+          "Rotate": "Change range",
+          "Push": "Refresh usage",
+          "Touch": "Change range",
+          "LongTouch": "Open Codex"
+        }
+      },
+      "States": [
+        {
+          "Image": "imgs/usage"
+        }
+      ]
+    },
+    {
+      "UUID": "com.kaumnen.streamdex.rate-limit",
+      "Name": "Rate Limit",
+      "Icon": "imgs/limit",
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "Encoder": {
+        "layout": "layouts/card.json",
+        "Icon": "imgs/limit",
+        "StackColor": "#F5A623",
+        "TriggerDescription": {
+          "Rotate": "Change limit window",
+          "Push": "Refresh limits",
+          "Touch": "Change limit window",
+          "LongTouch": "Open Codex"
+        }
+      },
+      "States": [
+        {
+          "Image": "imgs/limit"
+        }
+      ]
+    },
+    {
+      "UUID": "com.kaumnen.streamdex.control",
+      "Name": "Codex Control",
+      "Icon": "imgs/control",
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "Encoder": {
+        "layout": "layouts/card.json",
+        "Icon": "imgs/control",
+        "StackColor": "#E0528D",
+        "TriggerDescription": {
+          "Rotate": "Change refresh interval",
+          "Push": "Refresh now",
+          "Touch": "Open new task",
+          "LongTouch": "Open Codex settings"
+        }
+      },
+      "States": [
+        {
+          "Image": "imgs/control"
+        }
+      ]
+    },
+    {
+      "UUID": "com.kaumnen.streamdex.status",
+      "Name": "Codex Status",
+      "Icon": "imgs/status",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "imgs/status"
+        }
+      ]
+    },
+    {
+      "UUID": "com.kaumnen.streamdex.refresh",
+      "Name": "Refresh Dashboard",
+      "Icon": "imgs/refresh",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "imgs/refresh"
+        }
+      ]
+    }
+  ]
+}

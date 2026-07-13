@@ -1,0 +1,153 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "b028f0fc-35cf-4f4d-8862-6c7292a0cd60",
+          "LinkedTitle": true,
+          "Name": "Usage Range",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": { "index": 0, "panel": 0 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.usage"
+        },
+        "1,0": {
+          "ActionID": "1ffed894-61c5-4e31-9a47-5fa604bdc6ee",
+          "LinkedTitle": true,
+          "Name": "Usage Result",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": { "index": 0, "panel": 1 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.usage"
+        },
+        "2,0": {
+          "ActionID": "f37e2714-d6f7-4ae7-bbb9-68bd4dc33d85",
+          "LinkedTitle": true,
+          "Name": "Lifetime Range",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": { "index": 3, "panel": 0 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.usage"
+        },
+        "3,0": {
+          "ActionID": "b614407c-19d5-4319-84f7-222ad368a155",
+          "LinkedTitle": true,
+          "Name": "Lifetime Result",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": { "index": 3, "panel": 1 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.usage"
+        },
+        "0,1": {
+          "ActionID": "0e7680be-bb6b-4f3b-892a-9c1d7340cfa3",
+          "LinkedTitle": true,
+          "Name": "Rate Limit",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": { "index": 0 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.rate-limit"
+        },
+        "1,1": {
+          "ActionID": "9a999ee9-20d3-4f54-bac3-b957bd49971a",
+          "LinkedTitle": true,
+          "Name": "Codex Status",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.status"
+        },
+        "2,1": {
+          "ActionID": "06a2ee54-a160-49ec-bc69-808e070d10a7",
+          "LinkedTitle": true,
+          "Name": "Refresh Dashboard",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.refresh"
+        },
+        "3,1": {
+          "ActionID": "bbec4995-59d5-408e-b788-01649c72afae",
+          "LinkedTitle": true,
+          "Name": "Tasks Page",
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{
+            "FontSize": 10,
+            "Image": "",
+            "Title": "← TASKS",
+            "TitleAlignment": "bottom",
+            "TitleColor": "#ffffff"
+          }],
+          "UUID": "com.elgato.streamdeck.page.previous"
+        }
+      },
+      "Type": "Keypad"
+    },
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "9d5f7ae9-3aa8-4f00-9674-1b1569964577",
+          "LinkedTitle": true,
+          "Name": "Usage Console Left",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": { "group": "usage", "index": 0, "panel": 0 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.console"
+        },
+        "1,0": {
+          "ActionID": "b9b75882-5029-4e28-a62e-01de5b1d9da0",
+          "LinkedTitle": true,
+          "Name": "Usage Console Right",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": { "group": "usage", "index": 0, "panel": 1 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.console"
+        },
+        "2,0": {
+          "ActionID": "7f379633-f9a5-4f80-aa07-84c895161ae3",
+          "LinkedTitle": true,
+          "Name": "Status Console Left",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": { "group": "status", "index": 0, "panel": 0 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.console"
+        },
+        "3,0": {
+          "ActionID": "62827aa5-ea71-42ee-bc98-d8befbfc65c8",
+          "LinkedTitle": true,
+          "Name": "Status Console Right",
+          "Plugin": { "Name": "Streamdex", "UUID": "com.kaumnen.streamdex", "Version": "0.1.0.0" },
+          "Resources": null,
+          "Settings": { "group": "status", "index": 0, "panel": 1 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.kaumnen.streamdex.console"
+        }
+      },
+      "Type": "Encoder"
+    }
+  ],
+  "Icon": "",
+  "Name": "Insights"
+}

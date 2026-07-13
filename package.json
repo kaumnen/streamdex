@@ -1,0 +1,32 @@
+{
+  "name": "streamdex",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local Codex dashboard for Stream Deck+",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/build-plugin.mjs && node scripts/build-profile.mjs",
+    "check": "npm run typecheck && npm test && npm run build && npm run validate",
+    "test": "node --import tsx --test test/**/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "validate": "streamdeck validate com.kaumnen.streamdex.sdPlugin",
+    "link": "streamdeck link com.kaumnen.streamdex.sdPlugin",
+    "restart": "streamdeck restart com.kaumnen.streamdex"
+  },
+  "dependencies": {
+    "@elgato/streamdeck": "2.1.0"
+  },
+  "devDependencies": {
+    "@elgato/cli": "1.7.4",
+    "@rollup/plugin-commonjs": "29.0.3",
+    "@rollup/plugin-node-resolve": "16.0.1",
+    "@rollup/plugin-typescript": "12.3.0",
+    "@types/node": "24.10.0",
+    "rollup": "4.62.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

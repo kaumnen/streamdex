@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/layout.json",
+  "id": "StreamdexConsole",
+  "items": [
+    {
+      "key": "canvas",
+      "type": "pixmap",
+      "rect": [0, 0, 200, 100],
+      "background": "#07111b",
+      "zOrder": 0
+    }
+  ]
+}
